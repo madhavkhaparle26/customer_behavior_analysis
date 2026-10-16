@@ -1,114 +1,85 @@
-# customer_behavior_analysis
-data analysis project showcasing customer behavior analysis using python , SQL, power BI.
 Customer Behavior Analysis
 
 📌 Project Overview
 
-This project focuses on analyzing customer shopping behavior to understand purchasing patterns, product preferences, and customer trends. Python is used for data analysis, SQL for querying data, and Power BI for creating an interactive dashboard.
+Customer Behavior Analysis is a data analytics project that explores customer shopping patterns, purchasing behavior, subscription status, product categories, seasonal trends, and payment preferences. The project uses Python, SQL, and Power BI to analyze customer data and present insights through an interactive dashboard.
 
 🎯 Project Objectives
 
-- Analyze customer shopping and purchasing patterns.
-- Clean and prepare data for analysis.
-- Use SQL queries to answer business questions.
-- Identify popular product categories and payment preferences.
-- Create an interactive Power BI dashboard.
-- Generate insights to support business decisions.
+- Analyze customer purchasing behavior.
+- Understand subscription status and customer distribution.
+- Compare sales and revenue across product categories.
+- Analyze purchasing patterns across seasons.
+- Understand customer payment method preferences.
+- Present insights using an interactive Power BI dashboard.
 
-📂 Project Files
+📂 Dataset
 
-- Customer Shopping Behavior Dataset: Contains customer shopping information.
-- Python File / Notebook: Used for data cleaning and exploratory data analysis (EDA).
-- SQL File: Contains queries for analyzing customer behavior.
-- Power BI Dashboard: Visualizes customer shopping trends and key metrics.
-- README.md: Project documentation.
+The project uses a Customer Shopping Behavior dataset containing information about customer demographics, purchases, product categories, subscriptions, payment methods, seasons, and review ratings.
 
 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- SQL
-- MySQL
-- Power BI
-- GitHub
+- Python: Data analysis and data cleaning.
+- Pandas: Data manipulation.
+- SQL: Data querying and analysis.
+- Power BI: Interactive dashboard and visualizations.
+- GitHub: Project documentation and version control.
 
 🔄 Project Workflow
 
-1. Data Loading
+1. Data Preparation
 
-Load the customer shopping dataset into Python for analysis.
+Load and prepare the customer shopping dataset for analysis.
 
-2. Data Cleaning
+2. Data Cleaning and Analysis
 
-- Check for missing values and duplicate records.
-- Verify data types and column names.
-- Prepare the dataset for further analysis.
+Inspect the dataset, check data quality, and analyze customer shopping patterns using Python.
 
-3. Exploratory Data Analysis (EDA)
+3. SQL Analysis
 
-Explore customer demographics, product categories, purchase amounts, payment methods, and shopping trends.
+Use SQL queries to explore customer behavior, purchasing patterns, product categories, and payment preferences.
 
-4. SQL Analysis
+4. Power BI Dashboard
 
-Use SQL queries, filtering, grouping, aggregate functions, and joins where applicable to answer business questions.
-
-5. Power BI Dashboard
-
-Build an interactive dashboard to present key performance indicators and customer shopping insights.
+Create an interactive dashboard with KPI cards, charts, and slicers to explore customer shopping behavior.
 
 📊 Dashboard Highlights
 
-The dashboard may include:
+Key Performance Indicators (KPIs)
 
-- Customer Purchase Analysis
-- Sales by Product Category
-- Customer Demographics
-- Payment Method Analysis
-- Discount and Shipping Analysis
-- Seasonal Shopping Trends
+- Number of Customers: Displays the customer count.
+- Average Purchase Amount: Shows the average purchase amount.
+- Average Review Rating: Displays the average customer review rating.
 
-💡 Business Insights
+Visualizations
 
-The analysis aims to help understand:
+- Subscription Status: Percentage of customers with and without subscriptions.
+- Revenue by Category: Compares revenue across product categories.
+- Sales by Category: Compares sales across product categories.
+- Purchase Amount by Season: Analyzes purchasing amounts across seasons.
+- Payment Method: Shows the distribution of customer payment methods.
 
-- Which product categories are popular.
-- How customers prefer to pay.
-- How shopping patterns differ across customer groups.
-- How discounts and shipping preferences relate to shopping behavior.
+Interactive Filters
 
-Add the actual findings from your completed analysis here.
+- Subscription Status
+- Gender
+- Product Category
 
-▶️ How to Run the Project
+💡 Business Value
 
-Python
+The dashboard helps users explore customer shopping behavior, compare category performance, understand subscription distribution, and review seasonal purchasing and payment preferences.
 
-1. Download or clone this repository.
-2. Install the required libraries:
+▶️ How to Run
 
-pip install pandas numpy matplotlib seaborn
-
-3. Open the Python file or Jupyter Notebook.
-4. Update the dataset path if required.
-5. Run the analysis.
-
-SQL
-
-1. Open MySQL Workbench or your preferred SQL tool.
-2. Import the dataset into a database table.
-3. Open the SQL file.
-4. Execute the queries.
-
-Power BI
-
-1. Install Power BI Desktop.
-2. Open the ".pbix" dashboard file.
-3. Refresh the data source if required.
+1. Download or clone this GitHub repository.
+2. Open the Python file or notebook to review the analysis.
+3. Import the SQL file into your SQL tool and execute the queries using the appropriate dataset and table.
+4. Open the Power BI ".pbix" file in Power BI Desktop.
+5. Refresh the data source if required and interact with the dashboard filters.
 
 📈 Project Outcome
 
-This project demonstrates practical data analytics skills in Python, SQL, and Power BI. It transforms raw customer shopping data into meaningful analysis and visual insights for business decision-making.
+This project demonstrates practical data analytics skills in Python, SQL, and Power BI. It combines data analysis, SQL querying, and interactive visualization to explore customer shopping behavior and support data-driven decision-making.
 
 👨‍💻 Author
 
