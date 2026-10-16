@@ -96,6 +96,7 @@ customer_behavior_analysis/
 ├── customer_behavior_sql_queries.sql
 └── customer_behavior2.pbix
 
+
 Use the exact dataset and SQL file names shown in your GitHub repository.
 
 📈 Conclusion
