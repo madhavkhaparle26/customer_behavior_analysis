@@ -89,7 +89,7 @@ Power BI
 
 📁 Project Structure
 
-customer_behavior_analysis/
+customer_behavior_analysis
 │
 ├── README.md
 ├── Customer_Shopping_Behavior.csv
